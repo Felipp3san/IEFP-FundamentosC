@@ -35,17 +35,16 @@ int main() {
 
 	do
 	{
+		novo = NULL;
+		atual = NULL;
+		anterior = NULL;
+		temp = NULL;
 
 		menu();
 		cin >> op;
 		
 		switch (op)
 		{
-			novo = NULL;
-			atual = NULL;
-			anterior = NULL;
-			temp = NULL;
-
 			// ----------- LISTAR -----------
 			case '1':	
 
